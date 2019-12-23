@@ -1,0 +1,8 @@
+/**app.wxss**/
+
+page{
+  background-color: #f4f5f9;
+  font-size: 28rpx;
+  color: black;
+  font-family: 宋体;
+}

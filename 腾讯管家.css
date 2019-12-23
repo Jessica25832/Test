@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+html,body{
+    height: 100%;
+}
+#box{
+    width: 1200px;
+    margin: 0 auto;
+}
+#nav{
+    width: 100%;
+    height: 50px;
+}
+
+.logo{
+    float: left;
+    width:190px;
+    height: 100%;
+    padding-top:20px;
+   
+}
+.nav-auto{
+    float: left;
+    width: 620px ;
+    height: 100%;
+    margin-left: 10px;
+    padding-left: 40px;
+
+}
+.nav-auto li{
+    float: left;
+    width:78px;
+    height: 100%;
+    border-left: 1px solid #000;
+    font-size: 14px;
+    line-height: 70px;
+    text-align: center;
+    list-style: none;
+}
+#left{
+    border-right: 1px solid #000;
+}
+
+#nav-top{
+    width: 110px;
+}
+.nav-auto li a{
+    display: block;
+}
+#nav .top-nav-bj{
+    height: 50px;
+    width: 200px;
+    float: left;
+    text-align: center;
+    padding-left: 40px;
+    line-height: 70px;
+    padding-top: 10px;
+}
+.nologin{
+    float: right;
+    padding-top: 20px;
+}
+#banner{
+    width: 100%;
+    margin: 0 auto;
+    height: 480px;
+}
+.lbt{
+    width: 100%;
+    height: 620px;
+}
+#cert_block{
+    width: 1200px;
+
+    margin: 46px auto 47px;
+    display: block;
+}
+.cert_list{
+    height: 60px;
+    width: 1000px;
+    margin: 0 auto;
+
+}
+.cert_list a{
+    padding-top: 10px;
+    width: 100px;
+    display: block;
+    float: left;
+}
+.news_block{
+    width: 1200px;
+    height: 480px;
+    margin: 30px auto 47px;
+}
+.new-block{
+    width: 298px;
+    height: 480px;
+    float: left;
+    border: 1px solid #000;
+}
+.block-title{
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    color: #2771FA;
+}
+.block-img{
+    width: 298px;
+    height: 200px;
+    margin: 0 auto;
+    padding-left: 20px;
+
+}
+.block-li{
+    width: 298px;
+    height: 150px;
+    line-height: 40px;
+}
+.li-dadian{
+    width: 240px;
+    height: 30px;
+
+    margin-left: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.block{
+    height: 20px;
+    
+}
+.block a{
+    float: right;
+    line-height: 60px;
+}
+
+.fun-cert{
+    width: 1200px;
+    height: 480px;
+
+}
+.fun-title{
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    color: #2771FA;
+    font-size: 18px;
+
+}
+
+.cert p{
+    font-size: 14px;
+}
+.fun_cert{
+    width: 390px;
+    height: 190px;
+
+    float: left;
+    margin: 3px;
+    margin-top: 3px;
+}
+.fun_cert p{
+    font-size: 14px;
+}
+
+.fun_cert img{
+    margin-left: 38px;
+    margin-top: 52px;
+}
+.fun_cert .fun-name{
+    width: 210px;
+    height: 110px;
+    float: right;
+    padding-top: 55px;
+    text-align: left;
+}
+.cert{
+    width: 1200px;
+    height: 320px;
+}
+.manage-card{
+    width: 200px;
+    height: 220px;
+    display: inline-block;
+    text-align: center;
+    float: left;
+    margin-top: 30px;
+}
+.card-name{
+    margin-top: 10px;
+    line-height: 20px;
+}
+.news-new{
+    width: 100%;
+    height: 210px;
+    border: 1px solid #000;
+}
+.news{
+    width: 250px;
+    height: 30px;
+    float: left;
+    margin: 20px 20px 20px 20px;
+    /* 溢出文本省略
+    1，不换行
+    2，超出不展示
+    3，超出隐藏并省略 */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.news-new a{
+    font-size: 14px;
+}
+
+.gray{
+    width: 100%;
+    height: 200px;
+    background: #f6f6f6;
+}
+.hzhb{
+    width: 1200px;
+    height: 60px;
+    margin: 0 auto;
+    margin-top: 8px;
+    padding-top: 50px;
+}
+.hzhb h3{
+    float: left;
+}
+.gray-on{
+    float: left;
+}
+.hzhb-list{
+    float: left;
+    list-style: none;
+    margin-left: 15px;
+}
+.footer{
+    width: 1200px;
+    height: 20px;
+
+    margin: 0 auto;
+    margin-top: 40px;
+    font-size: 12px;
+
+}
+.footer p{
+    text-align: center;
+    
+}
+.zuiHouYiGe{
+    color: #9e9e9e;
+}

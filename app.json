@@ -1,0 +1,44 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/user/user",
+    "pages/dianpu/dianpu",
+    "pages/util/util",
+    "pages/logs/logs",
+    "pages/zcmm/zcmm"
+
+
+
+
+
+
+
+
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#00B26A",
+    "navigationBarTitleText": "至诚木门",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath":"pages/index/index",
+      "text": "推荐",
+      "iconPath": "/images/dianpu.png",
+      "selectedIconPath": "/images/dianpu1.png"
+    },{
+      "pagePath": "pages/dianpu/dianpu",
+      "text": "分类",
+      "iconPath": "/images/introduce.png",
+      "selectedIconPath": "/images/introduce1.png"
+    },{
+      "pagePath": "pages/user/user",
+      "text": "关于我们",
+      "iconPath": "/images/user.png",
+      "selectedIconPath": "/images/user1.png"
+    }]
+   
+  }
+
+}
